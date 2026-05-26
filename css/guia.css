@@ -1,0 +1,39 @@
+.hero-slant-guia {
+      position: relative;
+      background-size: cover;
+      background-position: center center;
+    }
+    .hero-slant-guia.overlay:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      bottom: 0;
+      right: 0;
+      top: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .hero-slant-guia, .hero-slant-guia > .container > .row {
+      height: 70vh;
+      min-height: 500px;
+    }
+    .hero-slant-guia .intro {
+      position: relative;
+      margin-top: 20vh;
+      z-index: 2;
+    }
+    .hero-slant-guia .slant {
+      position: absolute;
+      width: calc(100% + 2px);
+      height: 380px;
+      bottom: -2px;
+      left: -2px;
+      z-index: 1;
+      background-size: cover;
+      background-position: left top;
+      background-repeat: no-repeat;
+    }
+
+h2 {
+  
+  color: #333;
+}
